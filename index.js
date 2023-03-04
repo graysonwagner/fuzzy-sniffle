@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
     
     host: "localhost",
     
-    port: 3306,
+    port: 3306,    //mySQL port number
     
     user: "root",
     
@@ -56,7 +56,6 @@ function start() {
             }
         });
 }
-
 
 
 
@@ -145,7 +144,6 @@ function newRole() {
             })
     })
 }
-
 
 
 
